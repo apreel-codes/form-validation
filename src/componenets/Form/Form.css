@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+    .form-page {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .form-page {
+        margin-top: 3rem;
+        width: 500px;
+    }
+}
+
+
+.input {
+    outline: 1px rgb(206, 206, 206) solid;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 10rem;
+    width: 75%;
+    height: 40px;
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+
+
+.input-error {
+    outline: 1px rgb(216, 216, 216) solid;
+    border-radius: 10rem;
+    border: 1px red solid;
+    width: 75%;
+    height: 40px;
+    padding-left: 1rem;
+    font-size: .8rem;
+}
+
+
+input::placeholder {
+    color: rgba(197, 197, 197, 0.874);
+    font-size: .8rem;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.logo {
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 1.2rem;
+    color:rgb(124, 124, 124);
+    margin-bottom: 0.8rem;
+}
+
+p{
+    font-size: 0.8rem;
+    color: rgb(56, 56, 56);
+    margin-bottom: 2rem;
+
+}
+
+.form {
+    margin-bottom: 2.5rem;
+}
+
+.form-button {
+    margin-top: 1rem;
+}
+
+.email {
+    color: rgba(175, 175, 175, 0.874);
+}
+
